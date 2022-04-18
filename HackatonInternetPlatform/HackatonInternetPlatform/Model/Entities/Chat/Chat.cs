@@ -8,5 +8,6 @@ namespace HackatonInternetPlatform.Model
 {
     internal class Chat : Request
     {
+        List<Message> messages = new List<Message>();
     }
 }

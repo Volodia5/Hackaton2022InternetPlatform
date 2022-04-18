@@ -8,5 +8,9 @@ namespace HackatonInternetPlatform.Model
 {
     internal class SupplyOffer
     {
+        public int Id { get; set; }
+        public int Cost { get; set; }
+        public string Comment { get; set; }
+        public Supplier SupplierInfo { get; set; }
     }
 }
