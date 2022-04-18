@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pz8Hx/kw5MXC2hlghCmyIAwFtRXmed7LPz7ZMT4Zfddg8uqy7UGb3Gf8JCKoS8uCH+HHhgObV6GSnwzjXnjHDQ==",
+  "dgSpecHash": "vafrJ8rP3oHfHxHlCHbT5vclpVbqr96KUWhInocsS2WK6DI0QAjXAD9PpEj5d030Ojol464t7Jfya5R9OU+qaQ==",
   "success": true,
-  "projectFilePath": "G:\\С# программирование\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj",
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
