@@ -13,6 +13,13 @@ namespace HackatonInternetPlatform.Model
         public string ContactData { get; set; }
         public string LegalInformation { get; set; }
 
+        public User(string fullName, string contactData, string legalInformation)
+        {
+            FullName = fullName;
+            ContactData = contactData;
+            LegalInformation = legalInformation;
+        }
+
         //public string Login { get; set; }
         //                                      ???
         //public string Password { get; set; }
