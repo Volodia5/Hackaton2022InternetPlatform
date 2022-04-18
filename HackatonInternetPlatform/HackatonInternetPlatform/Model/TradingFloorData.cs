@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace HackatonInternetPlatform.Model
 {
-    [Serializable]
-    internal class Auction
+    internal class TradingFloorData
     {
-        public List<Request> requests { get; set; }
+
     }
 }
