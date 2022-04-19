@@ -46,11 +46,171 @@ namespace HackatonInternetPlatform.Model
             //saver.Save(this);
         }
 
+        #region Purchaser CRUD
         public bool AddPurchaser()
         {
-            Purchaser purchaser = Purchaser(Purchaser);
-
             return true;
+        }
+
+        public bool RemovePurchaser()
+        {
+            return true;
+        }
+
+        public bool UpdatePurchaser()
+        {
+            return true;
+        }
+
+        public bool GetPurchaser()
+        {
+            return true;
+        }
+
+        public bool GetPurchasers()
+        {
+            return true;
+        }
+        #endregion
+
+        #region Supplier CRUD
+        public bool AddSupplier()
+        {
+            return true;
+        }
+
+        public bool RemoveSupplier()
+        {
+            return true;
+        }
+
+        public bool UpdateSupplier()
+        {
+            return true;
+        }
+
+        public bool GetSupplier()
+        {
+            return true;
+        }
+
+        public bool GetSuppliers()
+        {
+            return true;
+        }
+        #endregion
+
+        #region Request CRUD
+        public bool AddRequest()
+        {
+            return true;
+        }
+
+        public bool RemoveRequest()
+        {
+            return true;
+        }
+
+        public bool UpdateRequest()
+        {
+            return true;
+        }
+
+        public bool GetRequest()
+        {
+            return true;
+        }
+
+        public bool GetRequests()
+        {
+            return true;
+        }
+        #endregion
+
+        #region SupplyOffer CRUD
+        public bool AddSupplyOffer()
+        {
+            return true;
+        }
+
+        public bool RemoveSupplyOffer()
+        {
+            return true;
+        }
+
+        public bool UpdateSupplyOffer()
+        {
+            return true;
+        }
+
+        public bool GetSupplyOffer()
+        {
+            return true;
+        }
+
+        public bool GetSupplyOffers()
+        {
+            return true;
+        }
+        #endregion
+
+        #region Chat CRUD
+        public bool AddChat()
+        {
+            return true;
+        }
+
+        public bool RemoveChat()
+        {
+            return true;
+        }
+
+        public bool UpdateChat()
+        {
+            return true;
+        }
+
+        public bool GetChat()
+        {
+            return true;
+        }
+
+        public bool GetChats()
+        {
+            return true;
+        }
+        #endregion
+
+        #region Message CRUD
+        public bool AddMessage()
+        {
+            return true;
+        }
+
+        //public bool RemoveMessage()
+        //{
+        //    return true;
+        //}
+        //                                не нужно
+        //public bool UpdateMessage()
+        //{
+        //    return true;
+        //}
+
+        public bool GetMessage()
+        {
+            return true;
+        }
+
+        public bool GetMessages()
+        {
+            return true;
+        }
+        #endregion
+
+        public void FilterRequst()
+        {
+
         }
     }
 }

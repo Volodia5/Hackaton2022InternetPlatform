@@ -36,3 +36,4 @@ C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInterne
 C:\Users\User\source\repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.RequestEditForm.resources
 C:\Users\User\source\repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.PurchaserForm.resources
 C:\Users\User\source\repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.SupplierForm.resources
+C:\Users\User\source\repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.RegistrationForm.resources

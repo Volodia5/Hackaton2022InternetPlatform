@@ -215,6 +215,7 @@
             this.maskedTextBox1.Location = new System.Drawing.Point(121, 38);
             this.maskedTextBox1.Mask = "00000";
             this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.PromptChar = 'ㅤ';
             this.maskedTextBox1.Size = new System.Drawing.Size(46, 23);
             this.maskedTextBox1.TabIndex = 2;
             // 
@@ -386,6 +387,7 @@
             this.maskedTextBox2.Location = new System.Drawing.Point(121, 38);
             this.maskedTextBox2.Mask = "00000";
             this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.PromptChar = 'ㅤ';
             this.maskedTextBox2.Size = new System.Drawing.Size(46, 23);
             this.maskedTextBox2.TabIndex = 2;
             // 
@@ -513,6 +515,7 @@
             this.maskedTextBox3.Location = new System.Drawing.Point(121, 38);
             this.maskedTextBox3.Mask = "00000";
             this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.PromptChar = 'ㅤ';
             this.maskedTextBox3.Size = new System.Drawing.Size(46, 23);
             this.maskedTextBox3.TabIndex = 2;
             // 
@@ -640,6 +643,7 @@
             this.maskedTextBox4.Location = new System.Drawing.Point(121, 38);
             this.maskedTextBox4.Mask = "00000";
             this.maskedTextBox4.Name = "maskedTextBox4";
+            this.maskedTextBox4.PromptChar = 'ㅤ';
             this.maskedTextBox4.Size = new System.Drawing.Size(46, 23);
             this.maskedTextBox4.TabIndex = 2;
             // 
@@ -767,6 +771,7 @@
             this.maskedTextBox5.Location = new System.Drawing.Point(121, 38);
             this.maskedTextBox5.Mask = "00000";
             this.maskedTextBox5.Name = "maskedTextBox5";
+            this.maskedTextBox5.PromptChar = 'ㅤ';
             this.maskedTextBox5.Size = new System.Drawing.Size(46, 23);
             this.maskedTextBox5.TabIndex = 2;
             // 
@@ -894,6 +899,7 @@
             this.maskedTextBox6.Location = new System.Drawing.Point(121, 38);
             this.maskedTextBox6.Mask = "00000";
             this.maskedTextBox6.Name = "maskedTextBox6";
+            this.maskedTextBox6.PromptChar = 'ㅤ';
             this.maskedTextBox6.Size = new System.Drawing.Size(46, 23);
             this.maskedTextBox6.TabIndex = 2;
             // 

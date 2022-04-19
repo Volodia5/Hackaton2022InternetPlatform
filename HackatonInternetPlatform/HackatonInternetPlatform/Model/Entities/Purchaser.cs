@@ -11,13 +11,58 @@ namespace HackatonInternetPlatform.Model
     {
 
         private List<Request>? _requests { get; set; }
-        public Purchaser(string fullName, string contactData, string legalInformation, List<Request> requests) 
-            : base(fullName, contactData, legalInformation)
+        private List<Auction> _auctions { get; set; }
+        public Purchaser(string fullName, string contactData, string legalInformation, string login, string password, List<Request> requests, List<Auction> auctions)
+            : base(fullName, contactData, legalInformation, login, password)
         {
             FullName = fullName;
             ContactData = contactData;
             LegalInformation = legalInformation;
             _requests = requests;
+            Login = login;
+            Password = password;
+            _requests = requests;
+            _auctions = auctions;
+        }
+
+        public bool AddRequest()
+        {
+            return false;
+        }
+
+        public bool RemoveRequest()
+        {
+            return false;
+        }
+
+        public bool UpdateRequest()
+        {
+            return false;
+        }
+
+        public void GetRequest()
+        {
+
+        }
+
+        public void GetRequests()
+        {
+
+        }
+
+        public void OpenRequest()
+        {
+
+        }
+
+        public void CloseRequest()
+        {
+
+        }
+
+        public bool AddAuction()
+        {
+            return false;
         }
     }
 }

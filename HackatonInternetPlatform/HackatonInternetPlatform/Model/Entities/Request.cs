@@ -17,5 +17,6 @@ namespace HackatonInternetPlatform.Model
         public char Currency { get; set; }
         public string PayMethod { get; set; }
         public string DeliveryAdress { get; set; }
+        public bool IsActive { get; set; }
     }
 }
