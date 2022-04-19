@@ -7,10 +7,13 @@
     <Compile Update="View\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\Purchaser.cs">
+    <Compile Update="View\PurchaserForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\Supplier.cs">
+    <Compile Update="View\RequestEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\SupplierForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

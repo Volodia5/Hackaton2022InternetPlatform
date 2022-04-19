@@ -118,7 +118,7 @@
             this.buttonVisiblePassword.Name = "buttonVisiblePassword";
             this.buttonVisiblePassword.Size = new System.Drawing.Size(22, 23);
             this.buttonVisiblePassword.TabIndex = 4;
-            this.buttonVisiblePassword.Text = "button1";
+            this.buttonVisiblePassword.Text = "v";
             this.buttonVisiblePassword.UseVisualStyleBackColor = true;
             this.buttonVisiblePassword.Click += new System.EventHandler(this.buttonVisiblePassword_Click);
             // 

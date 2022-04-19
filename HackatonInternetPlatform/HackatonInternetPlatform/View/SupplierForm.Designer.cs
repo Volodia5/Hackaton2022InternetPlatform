@@ -1,6 +1,6 @@
 ﻿namespace HackatonInternetPlatform.View
 {
-    partial class Purchaser
+    partial class SupplierForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Purchaser
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Purchaser";
-            this.Text = "Purchaser";
-            this.ResumeLayout(false);
-
+            this.Text = "SupplierForm";
         }
 
         #endregion
