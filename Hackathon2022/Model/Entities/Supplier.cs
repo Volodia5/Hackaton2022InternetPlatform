@@ -10,6 +10,7 @@ namespace HackatonInternetPlatform.Model
     internal class Supplier : User
     {
         private List<SupplyOffer> _supplyOffers { get; set; }
+
         public Supplier(string fullName, string contactData, string legalInformation, string login, string password, List<SupplyOffer> offers)
             : base(fullName, contactData, legalInformation, login, password)
         {
@@ -43,7 +44,5 @@ namespace HackatonInternetPlatform.Model
         {
 
         }
-
-
     }
 }

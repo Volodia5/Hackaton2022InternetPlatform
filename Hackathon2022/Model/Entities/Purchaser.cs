@@ -58,7 +58,5 @@ namespace HackatonInternetPlatform.Model
         {
             return false;
         }
-
-
     }
 }
