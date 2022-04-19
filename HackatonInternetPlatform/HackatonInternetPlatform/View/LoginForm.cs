@@ -1,3 +1,5 @@
+using HackatonInternetPlatform.View;
+
 namespace HackatonInternetPlatform
 {
     public partial class LoginForm : Form
@@ -19,6 +21,12 @@ namespace HackatonInternetPlatform
             {
                 textBoxPassword.PasswordChar = default;
             }
+        }
+
+        private void buttonRegister_Click(object sender, EventArgs e)
+        {
+            RegistrationForm view = new RegistrationForm();
+            view.ShowDialog();
         }
     }
 }

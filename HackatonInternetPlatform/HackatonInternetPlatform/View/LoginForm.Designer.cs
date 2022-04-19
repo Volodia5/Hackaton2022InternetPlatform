@@ -32,8 +32,6 @@
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.buttonRegister = new System.Windows.Forms.Button();
             this.buttonSignIn = new System.Windows.Forms.Button();
-            this.radioButtonPurchaser = new System.Windows.Forms.RadioButton();
-            this.radioButtonSupplier = new System.Windows.Forms.RadioButton();
             this.Login = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonVisiblePassword = new System.Windows.Forms.Button();
@@ -56,43 +54,22 @@
             // 
             // buttonRegister
             // 
-            this.buttonRegister.Location = new System.Drawing.Point(12, 137);
+            this.buttonRegister.Location = new System.Drawing.Point(12, 110);
             this.buttonRegister.Name = "buttonRegister";
             this.buttonRegister.Size = new System.Drawing.Size(89, 26);
             this.buttonRegister.TabIndex = 1;
             this.buttonRegister.Text = "Регистрация";
             this.buttonRegister.UseVisualStyleBackColor = true;
+            this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
             // 
             // buttonSignIn
             // 
-            this.buttonSignIn.Location = new System.Drawing.Point(107, 137);
+            this.buttonSignIn.Location = new System.Drawing.Point(107, 110);
             this.buttonSignIn.Name = "buttonSignIn";
             this.buttonSignIn.Size = new System.Drawing.Size(89, 26);
             this.buttonSignIn.TabIndex = 1;
             this.buttonSignIn.Text = "Войти";
             this.buttonSignIn.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonPurchaser
-            // 
-            this.radioButtonPurchaser.AutoSize = true;
-            this.radioButtonPurchaser.Location = new System.Drawing.Point(12, 112);
-            this.radioButtonPurchaser.Name = "radioButtonPurchaser";
-            this.radioButtonPurchaser.Size = new System.Drawing.Size(79, 19);
-            this.radioButtonPurchaser.TabIndex = 2;
-            this.radioButtonPurchaser.TabStop = true;
-            this.radioButtonPurchaser.Text = "закупщик";
-            this.radioButtonPurchaser.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonSupplier
-            // 
-            this.radioButtonSupplier.AutoSize = true;
-            this.radioButtonSupplier.Location = new System.Drawing.Point(107, 112);
-            this.radioButtonSupplier.Name = "radioButtonSupplier";
-            this.radioButtonSupplier.Size = new System.Drawing.Size(86, 19);
-            this.radioButtonSupplier.TabIndex = 2;
-            this.radioButtonSupplier.TabStop = true;
-            this.radioButtonSupplier.Text = "поставщик";
-            this.radioButtonSupplier.UseVisualStyleBackColor = true;
             // 
             // Login
             // 
@@ -118,7 +95,7 @@
             this.buttonVisiblePassword.Name = "buttonVisiblePassword";
             this.buttonVisiblePassword.Size = new System.Drawing.Size(22, 23);
             this.buttonVisiblePassword.TabIndex = 4;
-            this.buttonVisiblePassword.Text = "button1";
+            this.buttonVisiblePassword.Text = "v";
             this.buttonVisiblePassword.UseVisualStyleBackColor = true;
             this.buttonVisiblePassword.Click += new System.EventHandler(this.buttonVisiblePassword_Click);
             // 
@@ -126,12 +103,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(208, 173);
+            this.ClientSize = new System.Drawing.Size(208, 145);
             this.Controls.Add(this.buttonVisiblePassword);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Login);
-            this.Controls.Add(this.radioButtonSupplier);
-            this.Controls.Add(this.radioButtonPurchaser);
             this.Controls.Add(this.buttonSignIn);
             this.Controls.Add(this.buttonRegister);
             this.Controls.Add(this.textBoxPassword);
@@ -149,8 +124,6 @@
         private TextBox textBoxPassword;
         private Button buttonRegister;
         private Button buttonSignIn;
-        private RadioButton radioButtonPurchaser;
-        private RadioButton radioButtonSupplier;
         private Label Login;
         private Label label1;
         private Button buttonVisiblePassword;
