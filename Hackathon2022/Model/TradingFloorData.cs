@@ -125,6 +125,16 @@ namespace HackatonInternetPlatform.Model
         {
             return true;
         }
+
+        public void OpenRequest()
+        {
+
+        }
+
+        public void CloseRequest()
+        {
+
+        }
         #endregion
 
         #region SupplyOffer
