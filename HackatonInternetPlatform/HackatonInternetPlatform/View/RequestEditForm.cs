@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HackatonInternetPlatform.View
 {
-    public partial class Purchaser : Form
+    public partial class RequestEditForm : Form
     {
-        public Purchaser()
+        public RequestEditForm()
         {
             InitializeComponent();
         }

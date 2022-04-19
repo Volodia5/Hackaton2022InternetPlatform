@@ -23,8 +23,6 @@ C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInterne
 C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.csproj.AssemblyReference.cache
 C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.BreafingForm.resources
 C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.LoginForm.resources
-C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.Purchaser.resources
-C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.Supplier.resources
 C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.csproj.GenerateResource.cache
 C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.AssemblyInfoInputs.cache
@@ -35,3 +33,6 @@ C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInterne
 C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\ref\HackatonInternetPlatform.dll
 C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.pdb
 C:\Users\User\Source\Repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.genruntimeconfig.cache
+C:\Users\User\source\repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.RequestEditForm.resources
+C:\Users\User\source\repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.PurchaserForm.resources
+C:\Users\User\source\repos\Volodia5\Hackaton2022InternetPlatform\HackatonInternetPlatform\HackatonInternetPlatform\obj\Debug\net6.0-windows\HackatonInternetPlatform.View.SupplierForm.resources
