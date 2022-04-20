@@ -19,16 +19,22 @@ namespace HackatonInternetPlatform.Presenter
             _view = view;
 
             //_model.AddedPurchaser += OnAddedPurchaser;
-            _model.RemovedPurchaser += OnRemovedPurchaser;
-            _model.UpdatedPurchaser += OnUpdatedPurchaser;
+            _view.AddingPurchaser += OnAddingPurchaser;
+            //_model.RemovedPurchaser += OnRemovedPurchaser;
+            //_model.UpdatedPurchaser += OnUpdatedPurchaser;
             //_model.TookPurchaser += OnTookPurchaser;
         }
 
-        private void OnRemovedPurchaser() => _model.RemovePurchaser();
+        //public void OnAddedPurchaser() =>
+        private void OnAddingPurchaser(string fullName, string contactData, string legalInformation, string login, string password) 
+            => _model.AddPurchaser(fullName, contactData, legalInformation, login, password);
 
-        //private void OnAddedPurchaser() => _model.AddPurchaser();
+        //private void OnRemovedPurchaser(int id) => _model.RemovePurchaser(id);
 
-        private void OnUpdatedPurchaser() => _model.UpdatePurchaser();
+        //private void OnAddedPurchaser(string fullName, string contactData, string legalInformation, 
+        //    string login, string password, List<Request> requests, List<Auction> auctions) => _model.AddPurchaser(fullName, contactData, 
+        //        legalInformation, login, password, requests, auctions);
+        //private void OnUpdatedPurchaser() => _model.UpdatePurchaser();
 
         //private void OnTookPurchaser() => _model.TakePurchaser();
     }

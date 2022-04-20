@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackatonInternetPlatform.Model
 {
-    internal class SupplyOffer
+    public class SupplyOffer
     {
         private static int _id;
         public int Id { get; set; }
@@ -24,9 +24,41 @@ namespace HackatonInternetPlatform.Model
             Id = ++_id;
         }
 
-        public void Update()
+        public SupplyOffer(int cost, string comment, Supplier supplierInfo)
         {
+            Id = ++_id;
+            Cost = cost;
+            Comment = comment;
+            SupplierInfo = supplierInfo;
+        }
 
+        public void Update(int cost = -1, string comment = null, Supplier supplierInfo = null)
+        {
+            if (cost != -1)
+                Cost = cost;
+            if (comment != null)
+                Comment = comment;
+            if (supplierInfo != null)
+                SupplierInfo = supplierInfo;
+        }
+
+        public static int GetCurrentId()
+        {
+            return _id;
+        }
+
+        public static void SetCurrentId(int id)
+        {
+            _id = id;
         }
     }
+
+    public interface IReadOnlySupplyOffer
+    {
+        public int ID { get; }
+        public int Cost { get; }
+        public string Comment { get; }
+        public Supplier SupplierInfo { get; }
+    }
 }
+

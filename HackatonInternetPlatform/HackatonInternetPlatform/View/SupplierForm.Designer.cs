@@ -31,6 +31,7 @@
             this.labelSupplierName = new System.Windows.Forms.Label();
             this.buttonSpplierProfile = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button13 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
@@ -45,6 +46,7 @@
             this.label37 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button12 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
@@ -59,6 +61,7 @@
             this.label31 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
@@ -73,6 +76,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button10 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
@@ -87,6 +91,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button8 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
@@ -101,6 +106,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button9 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -114,15 +120,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.buttonNextPage = new System.Windows.Forms.Button();
-            this.buttonPreviousPage = new System.Windows.Forms.Button();
+            this.buttonSupplierNextPage = new System.Windows.Forms.Button();
+            this.buttonSupplierPreviousPage = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -171,6 +171,16 @@
             this.groupBox6.TabIndex = 13;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Запрос";
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button13.Location = new System.Drawing.Point(565, 12);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(59, 23);
+            this.button13.TabIndex = 11;
+            this.button13.Text = "Ответить";
+            this.button13.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
@@ -310,6 +320,16 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Запрос";
             // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button12.Location = new System.Drawing.Point(565, 12);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(59, 23);
+            this.button12.TabIndex = 11;
+            this.button12.Text = "Ответить";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(565, 38);
@@ -447,6 +467,16 @@
             this.groupBox4.TabIndex = 15;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Запрос";
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button11.Location = new System.Drawing.Point(565, 12);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(59, 23);
+            this.button11.TabIndex = 11;
+            this.button11.Text = "Ответить";
+            this.button11.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -586,6 +616,16 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Запрос";
             // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button10.Location = new System.Drawing.Point(565, 12);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(59, 23);
+            this.button10.TabIndex = 11;
+            this.button10.Text = "Ответить";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(565, 38);
@@ -723,6 +763,16 @@
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Запрос";
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button8.Location = new System.Drawing.Point(565, 12);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(59, 23);
+            this.button8.TabIndex = 11;
+            this.button8.Text = "Ответить";
+            this.button8.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -862,6 +912,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Запрос";
             // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button9.Location = new System.Drawing.Point(565, 12);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(59, 23);
+            this.button9.TabIndex = 11;
+            this.button9.Text = "Ответить";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(565, 38);
@@ -977,23 +1037,25 @@
             this.textBox1.Size = new System.Drawing.Size(109, 23);
             this.textBox1.TabIndex = 0;
             // 
-            // buttonNextPage
+            // buttonSupplierNextPage
             // 
-            this.buttonNextPage.Location = new System.Drawing.Point(766, 12);
-            this.buttonNextPage.Name = "buttonNextPage";
-            this.buttonNextPage.Size = new System.Drawing.Size(26, 432);
-            this.buttonNextPage.TabIndex = 10;
-            this.buttonNextPage.Text = ">";
-            this.buttonNextPage.UseVisualStyleBackColor = true;
+            this.buttonSupplierNextPage.Location = new System.Drawing.Point(766, 12);
+            this.buttonSupplierNextPage.Name = "buttonSupplierNextPage";
+            this.buttonSupplierNextPage.Size = new System.Drawing.Size(26, 432);
+            this.buttonSupplierNextPage.TabIndex = 10;
+            this.buttonSupplierNextPage.Text = ">";
+            this.buttonSupplierNextPage.UseVisualStyleBackColor = true;
+            this.buttonSupplierNextPage.Click += new System.EventHandler(this.buttonSupplierNextPage_Click);
             // 
-            // buttonPreviousPage
+            // buttonSupplierPreviousPage
             // 
-            this.buttonPreviousPage.Location = new System.Drawing.Point(98, 12);
-            this.buttonPreviousPage.Name = "buttonPreviousPage";
-            this.buttonPreviousPage.Size = new System.Drawing.Size(26, 432);
-            this.buttonPreviousPage.TabIndex = 11;
-            this.buttonPreviousPage.Text = "<";
-            this.buttonPreviousPage.UseVisualStyleBackColor = true;
+            this.buttonSupplierPreviousPage.Location = new System.Drawing.Point(98, 12);
+            this.buttonSupplierPreviousPage.Name = "buttonSupplierPreviousPage";
+            this.buttonSupplierPreviousPage.Size = new System.Drawing.Size(26, 432);
+            this.buttonSupplierPreviousPage.TabIndex = 11;
+            this.buttonSupplierPreviousPage.Text = "<";
+            this.buttonSupplierPreviousPage.UseVisualStyleBackColor = true;
+            this.buttonSupplierPreviousPage.Click += new System.EventHandler(this.buttonSupplierPreviousPage_Click);
             // 
             // button2
             // 
@@ -1003,66 +1065,6 @@
             this.button2.TabIndex = 18;
             this.button2.Text = "Добавить предложение о поставке";
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(565, 12);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(59, 23);
-            this.button9.TabIndex = 11;
-            this.button9.Text = "Ответить";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(565, 12);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(59, 23);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "Ответить";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button10.Location = new System.Drawing.Point(565, 12);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(59, 23);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "Ответить";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(565, 12);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(59, 23);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "Ответить";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(565, 12);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(59, 23);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "Ответить";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(565, 12);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(59, 23);
-            this.button13.TabIndex = 11;
-            this.button13.Text = "Ответить";
-            this.button13.UseVisualStyleBackColor = true;
             // 
             // SupplierForm
             // 
@@ -1076,8 +1078,8 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.buttonNextPage);
-            this.Controls.Add(this.buttonPreviousPage);
+            this.Controls.Add(this.buttonSupplierNextPage);
+            this.Controls.Add(this.buttonSupplierPreviousPage);
             this.Controls.Add(this.buttonSpplierProfile);
             this.Controls.Add(this.labelSupplierName);
             this.Name = "SupplierForm";
@@ -1187,8 +1189,8 @@
         private Label label4;
         private Label label2;
         private TextBox textBox1;
-        private Button buttonNextPage;
-        private Button buttonPreviousPage;
+        private Button buttonSupplierNextPage;
+        private Button buttonSupplierPreviousPage;
         private Button button2;
         private Button button13;
         private Button button12;

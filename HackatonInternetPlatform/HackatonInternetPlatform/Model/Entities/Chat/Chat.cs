@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HackatonInternetPlatform.Model
 {
-    internal class Chat : Request
+    internal class Chat
     {
         private List<User> _users;
         private ObservableCollection<Message> _messages;

@@ -30,8 +30,8 @@
         {
             this.buttonProfile = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonPreviousPage = new System.Windows.Forms.Button();
-            this.buttonNextPage = new System.Windows.Forms.Button();
+            this.buttonPurchaserPreviousPage = new System.Windows.Forms.Button();
+            this.buttonPurchaserNextPage = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -46,7 +46,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonAddRequest = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -143,23 +143,25 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "UserName";
             // 
-            // buttonPreviousPage
+            // buttonPurchaserPreviousPage
             // 
-            this.buttonPreviousPage.Location = new System.Drawing.Point(98, 7);
-            this.buttonPreviousPage.Name = "buttonPreviousPage";
-            this.buttonPreviousPage.Size = new System.Drawing.Size(26, 432);
-            this.buttonPreviousPage.TabIndex = 2;
-            this.buttonPreviousPage.Text = "<";
-            this.buttonPreviousPage.UseVisualStyleBackColor = true;
+            this.buttonPurchaserPreviousPage.Location = new System.Drawing.Point(98, 7);
+            this.buttonPurchaserPreviousPage.Name = "buttonPurchaserPreviousPage";
+            this.buttonPurchaserPreviousPage.Size = new System.Drawing.Size(26, 432);
+            this.buttonPurchaserPreviousPage.TabIndex = 2;
+            this.buttonPurchaserPreviousPage.Text = "<";
+            this.buttonPurchaserPreviousPage.UseVisualStyleBackColor = true;
+            this.buttonPurchaserPreviousPage.Click += new System.EventHandler(this.buttonPurchaserPreviousPage_Click);
             // 
-            // buttonNextPage
+            // buttonPurchaserNextPage
             // 
-            this.buttonNextPage.Location = new System.Drawing.Point(766, 7);
-            this.buttonNextPage.Name = "buttonNextPage";
-            this.buttonNextPage.Size = new System.Drawing.Size(26, 432);
-            this.buttonNextPage.TabIndex = 2;
-            this.buttonNextPage.Text = ">";
-            this.buttonNextPage.UseVisualStyleBackColor = true;
+            this.buttonPurchaserNextPage.Location = new System.Drawing.Point(766, 7);
+            this.buttonPurchaserNextPage.Name = "buttonPurchaserNextPage";
+            this.buttonPurchaserNextPage.Size = new System.Drawing.Size(26, 432);
+            this.buttonPurchaserNextPage.TabIndex = 2;
+            this.buttonPurchaserNextPage.Text = ">";
+            this.buttonPurchaserNextPage.UseVisualStyleBackColor = true;
+            this.buttonPurchaserNextPage.Click += new System.EventHandler(this.buttonPurchaserNextPage_Click);
             // 
             // groupBox1
             // 
@@ -298,14 +300,15 @@
             this.textBox1.Size = new System.Drawing.Size(109, 23);
             this.textBox1.TabIndex = 0;
             // 
-            // button2
+            // buttonAddRequest
             // 
-            this.button2.Location = new System.Drawing.Point(12, 75);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 53);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Создать запрос";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonAddRequest.Location = new System.Drawing.Point(12, 75);
+            this.buttonAddRequest.Name = "buttonAddRequest";
+            this.buttonAddRequest.Size = new System.Drawing.Size(80, 53);
+            this.buttonAddRequest.TabIndex = 4;
+            this.buttonAddRequest.Text = "Создать запрос";
+            this.buttonAddRequest.UseVisualStyleBackColor = true;
+            this.buttonAddRequest.Click += new System.EventHandler(this.buttonAddRequest_Click);
             // 
             // groupBox2
             // 
@@ -1002,10 +1005,10 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.buttonAddRequest);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.buttonNextPage);
-            this.Controls.Add(this.buttonPreviousPage);
+            this.Controls.Add(this.buttonPurchaserNextPage);
+            this.Controls.Add(this.buttonPurchaserPreviousPage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonProfile);
             this.Name = "PurchaserForm";
@@ -1031,8 +1034,8 @@
 
         private Button buttonProfile;
         private Label label1;
-        private Button buttonPreviousPage;
-        private Button buttonNextPage;
+        private Button buttonPurchaserPreviousPage;
+        private Button buttonPurchaserNextPage;
         private GroupBox groupBox1;
         private ComboBox comboBox2;
         private Label label5;
@@ -1046,7 +1049,7 @@
         private TextBox textBox3;
         private Label label6;
         private Label label7;
-        private Button button2;
+        private Button buttonAddRequest;
         private GroupBox groupBox2;
         private TextBox textBox4;
         private ComboBox comboBox3;

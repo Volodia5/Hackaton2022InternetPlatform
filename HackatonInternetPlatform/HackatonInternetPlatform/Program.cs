@@ -1,3 +1,5 @@
+using HackatonInternetPlatform.Model;
+using HackatonInternetPlatform.Presenter;
 using HackatonInternetPlatform.View;
 
 namespace HackatonInternetPlatform
@@ -13,6 +15,9 @@ namespace HackatonInternetPlatform
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+            RegistrationForm registrationForm = new RegistrationForm();
+            TradingFloorData floorData = new TradingFloorData();
+            SignUpPresenter presenter = new SignUpPresenter(floorData, registrationForm);
             Application.Run(new LoginForm());
         }
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HackatonInternetPlatform.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace HackatonInternetPlatform.View
         public SupplierForm()
         {
             InitializeComponent();
+        }
+
+        private void buttonSupplierNextPage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSupplierPreviousPage_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -36,6 +36,7 @@ namespace HackatonInternetPlatform.Model
         {
             Loader loader = new Loader();
 
+            _purchasers = new List<Purchaser>();
             //_purchasers = loader.LoadPurchaser();
             //_suppliers = loader.LoadSuppliers();
             //_requests = loader.LoadRequest();
@@ -49,23 +50,17 @@ namespace HackatonInternetPlatform.Model
         }
 
         #region Purchaser CRUD
-        public bool AddPurchaser(string fullName, string contactData, string legalInformation, string login, string password, List<Request> requests, List<Auction> auctions)
+        public bool AddPurchaser(string fullName, string contactData, string legalInformation, string login, string password)
         {
-            if(_purchasers != null)
-            {
-                _purchasers.Add(new Purchaser(fullName, contactData, legalInformation, login, password, _requests, _auctions));
-                AddedPurchaser?.Invoke();
-            }
-            else
-            {
-                return false;
-            }
+            _purchasers.Add(new Purchaser(fullName, contactData, legalInformation, login, password));
+            AddedPurchaser?.Invoke();
 
             return true;
         }
 
         public bool RemovePurchaser()
         {
+
             return true;
         }
 

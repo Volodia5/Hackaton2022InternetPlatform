@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackatonInternetPlatform.Model
 {
-    internal class User
+    public class User
     {
         private static int _id;
 
@@ -32,9 +32,39 @@ namespace HackatonInternetPlatform.Model
             Password = password;
         }
 
-        public void Update()
+        public void Update(string fullName = null, string contactData = null, string legalInformation = null, string login = null, string password = null)
         {
+            if (fullName != null)
+                FullName = fullName;
+            if (contactData != null)
+                ContactData = contactData;
+            if (legalInformation != null)
+                LegalInformation = legalInformation;
+            if (login != null)
+                Login = login;
+            if (password != null)
+                Password = password;
+        }
 
+        public static int GetCurrentId()
+        {
+            return _id;
+        }
+
+        public static void SetCurrentId(int id)
+        {
+            _id = id;
         }
     }
+
+    public interface IReadOnlyUser
+    {
+        public int ID { get; }
+        public string FullName { get; }
+        public string ContactData { get; }
+        public string LegalInformation { get; }
+        public string Login { get; }
+        public string Password { get; }
+    }
 }
+
