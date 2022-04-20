@@ -27,7 +27,7 @@ namespace HackatonInternetPlatform.Model
             _id = 0;
         }
 
-        public Request(string name, int count, string productType, int cost, char currency, string payMethod, string deliveryAdress, bool isValid)
+        public Request(string name, int count, string productType, int cost, char currency, string payMethod, string deliveryAdress,DateTime dateEnd, bool isValid)
         {
             Id = ++_id;
             Name = name;
@@ -37,6 +37,7 @@ namespace HackatonInternetPlatform.Model
             Currency = currency;
             PayMethod = payMethod;
             DeliveryAdress = deliveryAdress;
+            DateEnd = dateEnd;
             IsValid = isValid;
         }
 
@@ -94,5 +95,6 @@ namespace HackatonInternetPlatform.Model
         public string PayMethod { get; }
         public string DeliveryAdress { get; }
         public bool IsValid { get; }
+        public DateTime DateEnd { get; }
     }
 }

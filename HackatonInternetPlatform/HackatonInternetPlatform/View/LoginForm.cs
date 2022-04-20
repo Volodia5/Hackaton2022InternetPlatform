@@ -4,6 +4,7 @@ namespace HackatonInternetPlatform
 {
     public partial class LoginForm : Form
     {
+        public event Action OpeningRegisterForm;
         public LoginForm()
         {
             InitializeComponent();
@@ -25,8 +26,7 @@ namespace HackatonInternetPlatform
 
         private void buttonRegister_Click(object sender, EventArgs e)
         {
-           RegistrationForm registrationForm = new RegistrationForm();
-           registrationForm.ShowDialog();
+            OpeningRegisterForm?.Invoke();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace HackatonInternetPlatform.Model
     public class Supplier : User
     {
         private List<SupplyOffer> SupplyOffers = new List<SupplyOffer>();
-        public Supplier(string fullName, string contactData, string legalInformation, string login, string password, List<SupplyOffer> offers)
+        public Supplier(string fullName, string contactData, string legalInformation, string login, string password, List<SupplyOffer> offers = null)
             : base(fullName, contactData, login, password, legalInformation)
         {
             FullName = fullName;
@@ -45,7 +45,7 @@ namespace HackatonInternetPlatform.Model
             return false;
         }
 
-        public bool UpdateSupplyOffer(int id, int cost, string comment, Supplier supplierInfo)
+        public bool UpdateSupplyOffer(int id, int cost = -1, string comment = null, Supplier supplierInfo = null)
         {
             int index = FindSupplyOfferIndexById(id);
 
@@ -70,7 +70,7 @@ namespace HackatonInternetPlatform.Model
 
         public IReadOnlyList<IReadOnlySupplyOffer> GetSupplyOffers()
         {
-            return (IReadOnlyList<IReadOnlySupplyOffer>)SupplyOffers;
+            return (IReadOnlyList < IReadOnlySupplyOffer>)SupplyOffers;
         }
 
         private int FindSupplyOfferIndexById(int Id)
@@ -80,6 +80,11 @@ namespace HackatonInternetPlatform.Model
                     return i;
 
             return -1;
+        }
+
+        public interface IReadOnlySupplier
+        {
+            public List<SupplyOffer> SupplyOffers { get; }
         }
     }
 }

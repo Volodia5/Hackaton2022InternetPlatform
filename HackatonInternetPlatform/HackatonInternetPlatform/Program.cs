@@ -15,10 +15,10 @@ namespace HackatonInternetPlatform
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            RegistrationForm registrationForm = new RegistrationForm();
+            LoginForm loginform = new LoginForm();
             TradingFloorData floorData = new TradingFloorData();
-            SignUpPresenter presenter = new SignUpPresenter(floorData, registrationForm);
-            Application.Run(new LoginForm());
+            LoginPresenter presenter = new LoginPresenter(floorData, loginform);
+            Application.Run(loginform);
         }
     }
 }

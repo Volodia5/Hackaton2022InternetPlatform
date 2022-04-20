@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace HackatonInternetPlatform.Model
 {
     [Serializable]
-    internal class Purchaser : User
+    public class Purchaser : User
     {
 
         private List<Request>? Requests { get; set; }
@@ -25,9 +25,9 @@ namespace HackatonInternetPlatform.Model
             //Auctions = auctions;
         }
 
-        public bool AddRequest(string name, int count, string productType, int cost, char currency, string payMethod, string deliveryAdress, bool isValid)
+        public bool AddRequest(string name, int count, string productType, int cost, char currency, string payMethod, string deliveryAdress, bool isValid, DateTime dateEnd)
         {
-            Requests.Add(new Request(name, count, productType, cost, currency, payMethod, deliveryAdress, isValid));
+            Requests.Add(new Request(name, count, productType, cost, currency, payMethod, deliveryAdress, dateEnd, isValid));
 
             return true;
         }
@@ -45,7 +45,7 @@ namespace HackatonInternetPlatform.Model
             return false;
         }
 
-        public bool UpdateRequest(int id, string name, int count, string productType, int cost, char currency, string payMethod, string deliveryAdress, DateTime dateEnd, bool isValid)
+        public bool UpdateRequest(int id, string name = null, int count = -1, string productType = null, int cost = -1, char currency = ' ', string payMethod = null, string deliveryAdress = null, DateTime dateEnd = default, bool isValid = false)
         {
             int index = FindRequstIndexById(id);
 
@@ -111,6 +111,12 @@ namespace HackatonInternetPlatform.Model
                     return i;
 
             return -1;
+        }
+
+        public interface IReadOnlyPurchaser
+        {
+            public List<Request> Requests { get; }
+            //public List<Auction> Auctions { get; }
         }
     }
 }
