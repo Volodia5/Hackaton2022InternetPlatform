@@ -1,7 +1,10 @@
+using HackatonInternetPlatform.View;
+
 namespace HackatonInternetPlatform
 {
     public partial class LoginForm : Form
     {
+        public event Action OpeningRegisterForm;
         public LoginForm()
         {
             InitializeComponent();
@@ -19,6 +22,11 @@ namespace HackatonInternetPlatform
             {
                 textBoxPassword.PasswordChar = default;
             }
+        }
+
+        private void buttonRegister_Click(object sender, EventArgs e)
+        {
+            OpeningRegisterForm?.Invoke();
         }
     }
 }

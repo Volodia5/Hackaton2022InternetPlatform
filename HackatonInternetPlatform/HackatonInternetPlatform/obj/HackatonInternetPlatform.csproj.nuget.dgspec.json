@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj": {
+    "C:\\Users\\User\\source\\repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj",
         "projectName": "HackatonInternetPlatform",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Volodia5\\Hackaton2022InternetPlatform\\HackatonInternetPlatform\\HackatonInternetPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

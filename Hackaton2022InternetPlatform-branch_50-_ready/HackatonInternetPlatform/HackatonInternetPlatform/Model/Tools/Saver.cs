@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HackatonInternetPlatform.Model
+namespace HackatonInternetPlatform.Model.Tools
 {
-    internal class Supplier : User
+    internal class Saver
     {
+
     }
 }
