@@ -1,3 +1,7 @@
+using HackatonInternetPlatform.Model;
+using HackatonInternetPlatform.Presenter;
+using HackatonInternetPlatform.View;
+
 namespace HackatonInternetPlatform
 {
     internal static class Program
@@ -11,7 +15,10 @@ namespace HackatonInternetPlatform
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new LoginForm());
+            LoginForm loginform = new LoginForm();
+            TradingFloorData floorData = new TradingFloorData();
+            LoginPresenter presenter = new LoginPresenter(floorData, loginform);
+            Application.Run(loginform);
         }
     }
 }
