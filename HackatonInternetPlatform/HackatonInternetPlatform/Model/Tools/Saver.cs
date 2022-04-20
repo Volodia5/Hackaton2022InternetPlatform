@@ -8,5 +8,6 @@ namespace HackatonInternetPlatform.Model.Tools
 {
     internal class Saver
     {
+
     }
 }
