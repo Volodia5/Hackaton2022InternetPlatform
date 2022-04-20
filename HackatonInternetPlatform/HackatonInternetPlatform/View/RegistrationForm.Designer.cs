@@ -259,7 +259,6 @@
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Name = "RegistrationForm";
             this.Text = "RegistrationForm";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.RegistrationForm_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

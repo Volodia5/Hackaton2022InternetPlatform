@@ -25,8 +25,8 @@ namespace HackatonInternetPlatform
 
         private void buttonRegister_Click(object sender, EventArgs e)
         {
-            RegistrationForm view = new RegistrationForm();
-            view.ShowDialog();
+           RegistrationForm registrationForm = new RegistrationForm();
+           registrationForm.ShowDialog();
         }
     }
 }

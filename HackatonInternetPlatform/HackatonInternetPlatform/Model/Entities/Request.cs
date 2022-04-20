@@ -18,5 +18,6 @@ namespace HackatonInternetPlatform.Model
         public string PayMethod { get; set; }
         public string DeliveryAdress { get; set; }
         public bool IsActive { get; set; }
+        public DateTime DateEndRequest { get; set; }
     }
 }

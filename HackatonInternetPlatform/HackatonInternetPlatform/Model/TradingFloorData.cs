@@ -13,22 +13,24 @@ namespace HackatonInternetPlatform.Model
         private List<Purchaser> _purchasers;
         private List<Supplier> _suppliers;
         private List<Request> _requests;
+        private List<Auction> _auctions;
         private List<SupplyOffer> _supplyOffers;
 
         public event Action AddedPurchaser;
-        public event Action AddedSupplyer;
-        public event Action AddedRequest;
-        public event Action AddedSupplyOffer;
-
         public event Action RemovedPurchaser;
-        public event Action RemovedSupplyer;
-        public event Action RemovedRequest;
-        public event Action RemovedSupplyOffer;
-
         public event Action UpdatedPurchaser;
+
+        public event Action AddedSupplyer;
         public event Action UpdatedSupplyer;
+        public event Action RemovedSupplyer;
+
+        public event Action AddedRequest;
         public event Action UpdatedRequest;
+        public event Action RemovedRequest;
+
+        public event Action AddedSupplyOffer;
         public event Action UpdatedSupplyOffer;
+        public event Action RemovedSupplyOffer;
 
         public TradingFloorData()
         {
@@ -47,8 +49,18 @@ namespace HackatonInternetPlatform.Model
         }
 
         #region Purchaser CRUD
-        public bool AddPurchaser()
+        public bool AddPurchaser(string fullName, string contactData, string legalInformation, string login, string password, List<Request> requests, List<Auction> auctions)
         {
+            if(_purchasers != null)
+            {
+                _purchasers.Add(new Purchaser(fullName, contactData, legalInformation, login, password, _requests, _auctions));
+                AddedPurchaser?.Invoke();
+            }
+            else
+            {
+                return false;
+            }
+
             return true;
         }
 

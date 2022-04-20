@@ -33,20 +33,22 @@
             this.buttonPreviousPage = new System.Windows.Forms.Button();
             this.buttonNextPage = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -60,6 +62,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -73,6 +76,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -86,6 +90,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
@@ -99,6 +104,7 @@
             this.label31 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button7 = new System.Windows.Forms.Button();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.label32 = new System.Windows.Forms.Label();
@@ -111,12 +117,6 @@
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -183,76 +183,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Запрос";
             // 
-            // textBox1
+            // button1
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(6, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(109, 23);
-            this.textBox1.TabIndex = 0;
+            this.button1.Location = new System.Drawing.Point(565, 18);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(59, 43);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Чат";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // textBox3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Наименование";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(121, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 15);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Кол-во";
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Enabled = false;
-            this.maskedTextBox1.Location = new System.Drawing.Point(121, 38);
-            this.maskedTextBox1.Mask = "00000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.PromptChar = 'ㅤ';
-            this.maskedTextBox1.Size = new System.Drawing.Size(46, 23);
-            this.maskedTextBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(173, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(107, 23);
-            this.textBox2.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(173, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(27, 15);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Тип";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Enabled = false;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(286, 38);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(48, 23);
-            this.comboBox1.TabIndex = 4;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(286, 20);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(48, 15);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Валюта";
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(445, 38);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(118, 23);
+            this.textBox3.TabIndex = 7;
             // 
             // comboBox2
             // 
@@ -272,14 +218,6 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Способ оплаты";
             // 
-            // textBox3
-            // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(445, 38);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(118, 23);
-            this.textBox3.TabIndex = 7;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -288,6 +226,77 @@
             this.label7.Size = new System.Drawing.Size(92, 15);
             this.label7.TabIndex = 5;
             this.label7.Text = "Адрес доставки";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(286, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(48, 15);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Валюта";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Enabled = false;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(286, 38);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(48, 23);
+            this.comboBox1.TabIndex = 4;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(173, 38);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(107, 23);
+            this.textBox2.TabIndex = 3;
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Enabled = false;
+            this.maskedTextBox1.Location = new System.Drawing.Point(121, 38);
+            this.maskedTextBox1.Mask = "00000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.PromptChar = 'ㅤ';
+            this.maskedTextBox1.Size = new System.Drawing.Size(46, 23);
+            this.maskedTextBox1.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(121, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 15);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Кол-во";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(173, 20);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(27, 15);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Тип";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(90, 15);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Наименование";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(6, 38);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(109, 23);
+            this.textBox1.TabIndex = 0;
             // 
             // button2
             // 
@@ -319,6 +328,15 @@
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Запрос";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(565, 18);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(59, 43);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Чат";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // textBox4
             // 
@@ -448,6 +466,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Запрос";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(565, 18);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(59, 43);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "Чат";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // textBox7
             // 
             this.textBox7.Enabled = false;
@@ -575,6 +602,15 @@
             this.groupBox4.TabIndex = 9;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Запрос";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(565, 18);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(59, 43);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Чат";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // textBox10
             // 
@@ -704,6 +740,15 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Запрос";
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(565, 18);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(59, 43);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "Чат";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
             // textBox13
             // 
             this.textBox13.Enabled = false;
@@ -832,6 +877,15 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Запрос";
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(565, 18);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(59, 43);
+            this.button7.TabIndex = 8;
+            this.button7.Text = "Чат";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // textBox16
             // 
             this.textBox16.Enabled = false;
@@ -937,60 +991,6 @@
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(109, 23);
             this.textBox18.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(565, 18);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 43);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Чат";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(565, 18);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(59, 43);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Чат";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(565, 18);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(59, 43);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Чат";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(565, 18);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(59, 43);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Чат";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(565, 18);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(59, 43);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "Чат";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(565, 18);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(59, 43);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "Чат";
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // PurchaserForm
             // 
