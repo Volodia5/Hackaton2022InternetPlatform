@@ -1,3 +1,5 @@
+using HackatonInternetPlatform.View;
+
 namespace HackatonInternetPlatform
 {
     internal static class Program

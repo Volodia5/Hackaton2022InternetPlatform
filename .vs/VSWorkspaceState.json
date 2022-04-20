@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HackatonInternetPlatform",
+    "\\HackatonInternetPlatform\\HackatonInternetPlatform",
+    "\\HackatonInternetPlatform\\HackatonInternetPlatform\\Model",
+    "\\HackatonInternetPlatform\\HackatonInternetPlatform\\Model\\Entities",
+    "\\HackatonInternetPlatform\\HackatonInternetPlatform\\Model\\Entities\\Chat",
+    "\\HackatonInternetPlatform\\HackatonInternetPlatform\\View"
+  ],
+  "SelectedNode": "\\HackatonInternetPlatform\\HackatonInternetPlatform\\Model\\Entities\\Chat\\Chat.cs",
+  "PreviewInSolutionExplorer": false
+}
